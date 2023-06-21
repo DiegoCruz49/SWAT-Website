@@ -1,27 +1,43 @@
-body{
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 20px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  
+  body {
     background-color: black;
     color: white;
-}
-h1{
-    color: white;
     text-align: center;
+  }
+  
+  h1 {
+    color: white;
     font-size: 3em;
-}
-h2{
+  }
+  
+  h2 {
     color: white;
-    text-align: center;
-}
-h3{
-    text-align: center;
-}
-p{
+  }
+  
+  h3 {
     color: white;
-}
-img{
-    align-content: center;
+  }
+  
+  p {
+    color: white;
+  }
+  
+  img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
     width: 33%;
-}
-.Logo {
+  }
+  
+  .Logo {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -30,54 +46,120 @@ img{
     background: linear-gradient(to right, red, white, blue, white, red, white, blue);
     background-size: 200% auto;
     animation: backgroundFlow 20s linear infinite;
-}
-
-@keyframes backgroundFlow {
+  }
+  
+  @keyframes backgroundFlow {
     0% {
-        background-position: 0% 50%;
+      background-position: 0% 50%;
     }
     100% {
-        background-position: 100% 50%;
+      background-position: 100% 50%;
     }
-}
-.navbar {
+  }
+  
+  .navbar {
     background-color: red;
     padding: 10px;
     text-align: center;
-}
-
-.navbar a {
+  }
+  
+  .navbar a {
     margin: 0 10px;
     text-decoration: none;
     color: white;
-}
-.navbar a:hover{
+  }
+  
+  .navbar a:hover {
     background-color: blue;
     font-size: larger;
     height: 200%;
-}
-#XK-Glow{
-    align-items: center;
-}
-#FedSig{
-    align-items: center;
-}
-#Feniex{
-    align-items: center;
-}
-.IntoxaLock{
-    float:left;
-}
-.AutoZone{
-    float:left;
-}
-.Synchrony{
-    float:left;
-}
-footer{
-    color:white;
-}
-.Products ul li{
-    text-align: center;
+  }
+  ul{
     list-style-type: none;
-}
+  }
+  #XK-Glow h2 {
+    margin-top: 0;
+  }
+  #XK-Glow ul {
+    list-style-type: none;
+    float: left;
+    margin-left: 600px;
+    margin-right: 20px;
+  }  
+  #XK-Glow .XK-GlowPic img {
+    max-width: 15%;
+    height: auto;
+    float: left;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+  }  
+  #RSS{
+    clear: both;
+    margin-top: 0;
+  }
+  #Automotive{
+    clear: both;
+  }
+  #Automotive ul{
+    float: left;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+  }
+  .EngineLight img {
+    max-width: 15%;
+    height: auto;
+    float: left;
+    margin-left: 600px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+  }
+  #AC{
+    clear: both;
+    margin-top: 0;
+  }
+  #AC ul{
+    list-style-type: none;
+    float: left;
+    margin-left: 600px;
+    margin-right: 20px;
+    margin-top: 135px;
+  }
+  #AC .ACPic img{
+    background-color: black;
+    max-width: 15%;
+    height: auto;
+    float: left;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+  }
+  footer {
+    color: white;
+  }
+  
+  #Brakes {
+    clear: both;
+    
+  }
+#Brakes ul {
+    float: left;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    margin-top: 135px;
+  }
+  
+#Brakes .BrakesAd img {
+    max-width: 15%;
+    height: auto;
+    float: left;
+    margin-left: 600px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+  }
+  #Electrical{
+    clear: both;
+  }
+  
