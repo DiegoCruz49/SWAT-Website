@@ -1,0 +1,83 @@
+body{
+    background-color: black;
+    color: white;
+}
+h1{
+    color: white;
+    text-align: center;
+    font-size: 3em;
+}
+h2{
+    color: white;
+    text-align: center;
+}
+h3{
+    text-align: center;
+}
+p{
+    color: white;
+}
+img{
+    align-content: center;
+    width: 33%;
+}
+.Logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 50px;
+    padding-right: 50px;
+    background: linear-gradient(to right, red, white, blue, white, red, white, blue);
+    background-size: 200% auto;
+    animation: backgroundFlow 20s linear infinite;
+}
+
+@keyframes backgroundFlow {
+    0% {
+        background-position: 0% 50%;
+    }
+    100% {
+        background-position: 100% 50%;
+    }
+}
+.navbar {
+    background-color: red;
+    padding: 10px;
+    text-align: center;
+}
+
+.navbar a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: white;
+}
+.navbar a:hover{
+    background-color: blue;
+    font-size: larger;
+    height: 200%;
+}
+#XK-Glow{
+    align-items: center;
+}
+#FedSig{
+    align-items: center;
+}
+#Feniex{
+    align-items: center;
+}
+.IntoxaLock{
+    float:left;
+}
+.AutoZone{
+    float:left;
+}
+.Synchrony{
+    float:left;
+}
+footer{
+    color:white;
+}
+.Products ul li{
+    text-align: center;
+    list-style-type: none;
+}
