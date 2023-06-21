@@ -6,37 +6,30 @@
     align-items: center;
     text-align: center;
   }
-  
   body {
     background-color: black;
     color: white;
     text-align: center;
   }
-  
   h1 {
     color: white;
     font-size: 3em;
   }
-  
   h2 {
     color: white;
   }
-  
   h3 {
     color: white;
   }
-  
   p {
     color: white;
   }
-  
   img {
     display: block;
     margin-left: auto;
     margin-right: auto;
     width: 33%;
   }
-  
   .Logo {
     display: flex;
     justify-content: center;
@@ -47,7 +40,6 @@
     background-size: 200% auto;
     animation: backgroundFlow 20s linear infinite;
   }
-  
   @keyframes backgroundFlow {
     0% {
       background-position: 0% 50%;
@@ -56,19 +48,16 @@
       background-position: 100% 50%;
     }
   }
-  
   .navbar {
     background-color: red;
     padding: 10px;
     text-align: center;
   }
-  
   .navbar a {
     margin: 0 10px;
     text-decoration: none;
     color: white;
   }
-  
   .navbar a:hover {
     background-color: blue;
     font-size: larger;
@@ -138,10 +127,8 @@
   footer {
     color: white;
   }
-  
   #Brakes {
-    clear: both;
-    
+    clear: both; 
   }
 #Brakes ul {
     float: left;
@@ -150,7 +137,6 @@
     margin-bottom: 20px;
     margin-top: 135px;
   }
-  
 #Brakes .BrakesAd img {
     max-width: 15%;
     height: auto;
